@@ -85,7 +85,7 @@
                                 <color key="maximumTrackTintColor" systemColor="systemGrayColor"/>
                                 <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="redSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="J5L-vt-ljb"/>
+                                    <action selector="SliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="hjc-Nb-ehE"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YWs-8S-SeI">
@@ -94,16 +94,16 @@
                                 <color key="maximumTrackTintColor" systemColor="systemGrayColor"/>
                                 <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="greenSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="GsU-Ie-Lhy"/>
+                                    <action selector="SliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="gUf-MP-ngN"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zgb-wV-uLb">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.54000000000000004" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zgb-wV-uLb">
                                 <rect key="frame" x="154" y="374" width="230" height="31"/>
                                 <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
                                 <color key="maximumTrackTintColor" systemColor="systemGrayColor"/>
                                 <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="blueSliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="StE-je-oqu"/>
+                                    <action selector="SliderAction" destination="BYZ-38-t0r" eventType="valueChanged" id="imx-jG-QIa"/>
                                 </connections>
                             </slider>
                         </subviews>
