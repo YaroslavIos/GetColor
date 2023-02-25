@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="2eR-6r-VV2" customClass="MainViewController" customModule="GetColor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LSt-ph-kiN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="TsR-vg-kP7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -141,7 +141,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="doneButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rvv-ay-3bX"/>
-                                    <segue destination="2eR-6r-VV2" kind="presentation" id="Zk4-uZ-IJu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -202,9 +201,6 @@
             <point key="canvasLocation" x="-855.07246376811599" y="83.705357142857139"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Zk4-uZ-IJu"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">

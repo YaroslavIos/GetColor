@@ -26,8 +26,7 @@ final class SettingsViewController: UIViewController {
         super.viewDidLoad()
         
         viewColor.layer.cornerRadius = 18
-        
-        viewColor.backgroundColor = color
+    
         initialViewBackground()
         initialPositionOfSliders()
         takeValuesOfLabels(for: redResult, greenResult, blueResult)
@@ -46,7 +45,7 @@ final class SettingsViewController: UIViewController {
     }
     
     @IBAction func doneButtonPressed() {
-        delegate.updateBackground(for: color)
+        delegate.updateBackground(for: viewColor.backgroundColor!)
         dismiss(animated: true)
     }
     
