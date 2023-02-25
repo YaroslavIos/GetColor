@@ -8,12 +8,12 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Screen View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="HvZ-Hn-yY7">
             <objects>
-                <viewController id="2eR-6r-VV2" customClass="MainScreenViewController" customModule="GetColor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2eR-6r-VV2" customClass="MainViewController" customModule="GetColor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LSt-ph-kiN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="TsR-vg-kP7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -30,10 +30,10 @@
             </objects>
             <point key="canvasLocation" x="55.072463768115945" y="83.705357142857139"/>
         </scene>
-        <!--Settings Screen View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SettingsScreenViewController" customModule="GetColor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SettingsViewController" customModule="GetColor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,6 +139,10 @@
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="doneButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rvv-ay-3bX"/>
+                                    <segue destination="2eR-6r-VV2" kind="presentation" id="Zk4-uZ-IJu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -198,6 +202,9 @@
             <point key="canvasLocation" x="-855.07246376811599" y="83.705357142857139"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Zk4-uZ-IJu"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">
