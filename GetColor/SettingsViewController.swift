@@ -19,6 +19,10 @@ final class SettingsViewController: UIViewController {
     @IBOutlet var greenSlider: UISlider!
     @IBOutlet var blueSlider: UISlider!
     
+    @IBOutlet var redTF: UIStackView!
+    @IBOutlet var greenTF: UITextField!
+    @IBOutlet var blueTF: UITextField!
+    
     var color: UIColor!
     unowned var delegate: SettingsViewControllerDelegate!
     
@@ -30,6 +34,11 @@ final class SettingsViewController: UIViewController {
         initialViewBackground()
         initialPositionOfSliders()
         takeValuesOfLabels(for: redResult, greenResult, blueResult)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        view.endEditing(true)
     }
     
     @IBAction func redSlider(_ sender: UISlider) {
