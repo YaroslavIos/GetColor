@@ -26,8 +26,8 @@
                                 <imageReference key="image" image="paintpalette" catalog="system" renderingMode="original"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GetColor" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4Sp-ND-zrE">
-                                <rect key="frame" x="115" y="426" width="184.5" height="57.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <rect key="frame" x="137.5" y="426.5" width="139.5" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -36,12 +36,11 @@
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QGo-HK-JGv" secondAttribute="trailing" constant="97" id="4fI-og-uf4"/>
-                            <constraint firstItem="4Sp-ND-zrE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AMs-ol-ctj"/>
                             <constraint firstItem="QGo-HK-JGv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="222" id="B1m-NX-Uxy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Sp-ND-zrE" secondAttribute="trailing" constant="114.5" id="OPO-Gu-5qJ"/>
+                            <constraint firstItem="4Sp-ND-zrE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VDe-aA-DIr"/>
+                            <constraint firstItem="4Sp-ND-zrE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="W5x-rB-Tjj"/>
                             <constraint firstItem="QGo-HK-JGv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ayO-5A-dcN"/>
                             <constraint firstItem="QGo-HK-JGv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="eG8-ZD-TDD"/>
-                            <constraint firstItem="4Sp-ND-zrE" firstAttribute="top" secondItem="QGo-HK-JGv" secondAttribute="bottom" constant="30" id="hO2-PG-0Hc"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -150,20 +150,20 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="sMu-Gt-YDq">
                                         <rect key="frame" x="322" y="0.0" width="32" height="130"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.54" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ix9-PY-mYP">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ix9-PY-mYP">
                                                 <rect key="frame" x="0.0" y="0.0" width="32" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v4D-rI-bwA">
                                                 <rect key="frame" x="0.0" y="48" width="32" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RXA-PK-OwC">
                                                 <rect key="frame" x="0.0" y="96" width="32" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -209,7 +209,7 @@
                         <outlet property="greenTF" destination="v4D-rI-bwA" id="dwF-Io-3Qz"/>
                         <outlet property="redResult" destination="EUC-cy-CMr" id="sw6-EV-l6A"/>
                         <outlet property="redSlider" destination="L86-Ap-Hpx" id="ZFG-u7-Jzg"/>
-                        <outlet property="redTF" destination="sMu-Gt-YDq" id="WYo-N9-Vn2"/>
+                        <outlet property="redTF" destination="ix9-PY-mYP" id="V6c-Ft-dLc"/>
                         <outlet property="viewColor" destination="LNg-SR-Wj6" id="f6U-bw-j8x"/>
                     </connections>
                 </viewController>
