@@ -36,6 +36,10 @@ final class SettingsViewController: UIViewController {
         
         viewColor.backgroundColor = color
         
+        redTF.delegate = self
+        greenTF.delegate = self
+        blueTF.delegate = self
+        
         setValue(for: redSlider, greenSlider, blueSlider)
         setValue(for: redResult, greenResult, blueResult)
         setValue(for: redTF, greenTF, blueTF)
